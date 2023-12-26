@@ -1,0 +1,90 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 2d6a2b7e-171f-4cbf-93ca-c59378768d2c)
+
+  (paper "A")
+
+  (title_block
+    (title "D-Jetronic 0 280 000 034 ECU for Volvo")
+    (date "2023-12-26")
+    (comment 1 "Redrawn by David Farrington")
+    (comment 2 "Copied from Dale Rembold")
+    (comment 3 "Following Layout by F.W. Kerfoot")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 123.825 -26.035) (size 36.83 30.48) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0135ffb7-7f18-488a-a879-8fc910c3ce53)
+    (property "Sheetname" "Dist-MPS" (at 123.825 -26.7466 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Dist-MPS.kicad_sch" (at 123.825 5.0296 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "034 ECU v4"
+        (path "/2d6a2b7e-171f-4cbf-93ca-c59378768d2c" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 172.72 -26.035) (size 38.735 29.21) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2c4dd0df-6137-47bd-867f-9a5e0a76832b)
+    (property "Sheetname" "TPS" (at 172.72 -26.7466 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "TPS.kicad_sch" (at 172.72 3.7596 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "034 ECU v4"
+        (path "/2d6a2b7e-171f-4cbf-93ca-c59378768d2c" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 221.615 -26.035) (size 40.64 29.845) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4f71618c-b157-455a-989b-f92b0c8a5a74)
+    (property "Sheetname" "Aux" (at 221.615 -26.7466 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Aux.kicad_sch" (at 221.615 4.3946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "034 ECU v4"
+        (path "/2d6a2b7e-171f-4cbf-93ca-c59378768d2c" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 75.565 -27.305) (size 37.465 31.75) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8515e021-a539-4705-b1c9-cc6c4d8924b0)
+    (property "Sheetname" "Edge Connector" (at 75.565 -28.0166 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ECU Conn.kicad_sch" (at 75.565 5.0296 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "034 ECU v4"
+        (path "/2d6a2b7e-171f-4cbf-93ca-c59378768d2c" (page "1"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "#"))
+  )
+)
